@@ -20,12 +20,11 @@ Idea for 2018 codefundo++
     > Source depth
 
 #### Division of study area in a requisite number of tiles.
-#### Feature extraction and feauture modelling out of the chosen 7 parameters
+#### Feature extraction and feature modelling out of the chosen 7 parameters
 
-#### Seven seismic parameters shall be passed as an input to seven neurons and one set of input features corresponding to 1 month. In this case, two hidden layers will be, each with 12 neurons. We shall use Matlab for the training and testing.
-#### Total number of synaptic connections would be given by w=(I+1)a1 + (a1+1)a2 + (a2+1)O
+#### Seven seismic parameters shall be passed as an input to seven neurons and one set of input features corresponding to 1 month. In this case, two hidden layers will be, each with 12 neurons. We shall use Matlab for the training and testing. Total number of synaptic connections would be given by w=(I+1)a1 + (a1+1)a2 + (a2+1)O
 
 #### Generating a hypothesis by using Artificial Neural Networks
 #### Training this hypothesis with training dataset and optimizing the cost function.
-#### Running the model on the same spatial location (same grid and same tilings) in a new time-stepping and with different seismic         indicators to predict the probability of an earthquake to cross a certain magnitude threshold "m". This magnitude threshold is a user defined paramter. 
+#### Running the model on the same spatial location (same grid and same tilings) in a new time-stepping and with different seismic         indicators to predict the probability of an earthquake to cross a certain magnitude threshold "m". This magnitude threshold is a user defined parameter. 
 #### Creating Heat maps on the basis of numerous iteration results, representing the probabilities of exceedance of a given magnitude.
